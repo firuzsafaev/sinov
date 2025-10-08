@@ -1,7 +1,4 @@
 {
   "name": "hello-world",
-  "description": "A simple Hello, World! Shiny app.",
-  "version": "1.0.0",
-  "r": "4.0.0",
   "main": "app.R"
 }
