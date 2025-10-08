@@ -3,7 +3,7 @@
     "path": "~/teest/manifest.json",
     "project_path": "manifest.json",
     "type": "json",
-    "hash": "2875518445",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1759906654970.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "10,0",
+        "cursorPosition": "7,11",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1759906818,
+    "lastKnownWriteTime": 1759907016,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1759906818536,
+    "last_content_update": 1759907016919,
     "read_only": false,
     "read_only_alternatives": []
 }
