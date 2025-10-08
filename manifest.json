@@ -1,0 +1,10 @@
+{
+  "name": "hello-world",
+  "description": "A simple Hello, World! Shiny app.",
+  "version": "1.0.0",
+  "dependencies": {
+    "shiny": "latest"
+  },
+  "r": "4.2.0",  // Specify a supported R version
+  "main": "app.R"
+}
