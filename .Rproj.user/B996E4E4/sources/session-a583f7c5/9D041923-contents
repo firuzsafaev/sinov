@@ -5,6 +5,6 @@
   "dependencies": {
     "shiny": "latest"
   },
-  "r": "4.2.0",  // Specify a supported R version
+  "r": "4.2.0",
   "main": "app.R"
 }

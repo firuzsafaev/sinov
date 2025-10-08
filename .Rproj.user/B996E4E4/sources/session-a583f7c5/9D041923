@@ -3,7 +3,7 @@
     "path": "~/teest/manifest.json",
     "project_path": "manifest.json",
     "type": "json",
-    "hash": "0",
+    "hash": "2875518445",
     "contents": "",
     "dirty": false,
     "created": 1759906654970.0,
@@ -16,11 +16,11 @@
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1759906683,
+    "lastKnownWriteTime": 1759906818,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1759906683545,
+    "last_content_update": 1759906818536,
     "read_only": false,
     "read_only_alternatives": []
 }
