@@ -6,11 +6,8 @@
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
-  "environment": {
-    "r": {
-        "requires": ">=4.0.0,<5.0" 
-    }
-},
+  "r": "4.0.0", 
+  "main": "app.R",
   "icons": [
     {
       "src": "icon-192.png",
