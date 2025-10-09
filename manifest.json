@@ -1,18 +1,31 @@
 {
-  "schema_version": "1.0",
-  "name": "Connect Cloud Integration",
+  "name": "connect-cloud-app",
   "version": "1.0.0",
-  "description": "A cloud integration to sync data between services.",
-  "publisher": "Your Company Name",
+  "description": "Integration for syncing data via Connect Cloud.",
+  "schema_version": "1.0",
+  "publisher": "Your Company",
   "main": "index.js",
-  "icon": "icon.png",
+  "icon": "assets/icon.png",
+  "capabilities": [
+    "api-actions",
+    "webhooks",
+    "scheduled-triggers"
+  ],
   "configuration": {
     "auth_type": "oauth2",
-    "required_fields": ["client_id", "client_secret", "token_url"]
-  },
-  "capabilities": [
-    "webhooks",
-    "scheduled-triggers",
-    "api-actions"
-  ]
+    "fields": {
+      "client_id": {
+        "type": "string",
+        "required": true
+      },
+      "client_secret": {
+        "type": "string",
+        "required": true
+      },
+      "token_url": {
+        "type": "string",
+        "required": true
+      }
+    }
+  }
 }
