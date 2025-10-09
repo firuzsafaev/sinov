@@ -1,50 +1,18 @@
 {
+  "schema_version": "1.0",
   "name": "Connect Cloud Integration",
-  "short_name": "ConnectCloud",
-  "description": "A web-based integration for cloud connectivity via Connect Cloud.",
   "version": "1.0.0",
-  "manifest_version": 2,
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#0078D7",
-  "icons": [
-    {
-      "src": "icons/icon-48x48.png",
-      "sizes": "48x48",
-      "type": "image/png"
-    },
-    {
-      "src": "icons/icon-96x96.png",
-      "sizes": "96x96",
-      "type": "image/png"
-    },
-    {
-      "src": "icons/icon-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "icons/icon-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ],
-  "permissions": [
-    "storage",
-    "identity",
-    "https://*.connectcloud.com/"
-  ],
-  "oauth2": {
-    "client_id": "your-client-id",
-    "scopes": [
-      "profile",
-      "email",
-      "https://www.googleapis.com/auth/cloud-platform"
-    ]
+  "description": "A cloud integration to sync data between services.",
+  "publisher": "Your Company Name",
+  "main": "index.js",
+  "icon": "icon.png",
+  "configuration": {
+    "auth_type": "oauth2",
+    "required_fields": ["client_id", "client_secret", "token_url"]
   },
-  "web_accessible_resources": [
-    "styles/*.css",
-    "scripts/*.js"
+  "capabilities": [
+    "webhooks",
+    "scheduled-triggers",
+    "api-actions"
   ]
 }
